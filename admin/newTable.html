@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tbl{
+  padding:10px;
+  border:1px solid black;
+  background-color: #800000;
+  color:white;
+  font-family: sans-serif;
+}
+.tbldata{
+/*background-color: green;*/
+border:1px solid red;
+padding:10px;
+}
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2>Horizontal Headings:</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Telephone</th>
+    <th>Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>555 77 854</td>
+    <td>555 77 855</td>
+  </tr>
+</table>
+
+<h2>Vertical Headings:</h2>
+
+<table style="width:100%" border="none">
+<tr>
+</tr>
+  <tr>
+    <td rowspan="3">Hello</td>
+
+    <th class="tbl">Name:</th>
+    <td class="tbldata">Bill Gates</td>
+  </tr>
+  <tr>
+    <th class="tbl">Telephone:</th>
+    <td class="tbldata">555 77 854</td>
+  </tr>
+  <tr>
+    <th class="tbl">Telephone:</th>
+    <td class="tbldata">555 77 855</td>
+  </tr>
+</table>
+
+</body>
+</html>

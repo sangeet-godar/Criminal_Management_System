@@ -1,0 +1,43 @@
+.searchcriminal{
+        float:right;
+    }
+        
+   /* tr.break td {
+  height: 30px;
+}*/
+hr.new4 {
+  border: 1px solid red;
+}
+.tbl{
+  padding:10px;
+  border:1px solid white;
+  background-color: #800000;
+  color:white;
+  font-family: sans-serif;
+  text-align: left;
+  width: 55%;
+  font-size: 17px;
+}
+.tbldata{
+background-color: #3D3837;
+border:1.7px solid white;
+padding:10px;
+width: 42%;
+color:white;
+font-family: sans-serif;
+font-size: 16px;
+}
+.viewmore{
+    border:2px solid white;
+    background-color: white;
+    padding:0 0 0 270px;
+}
+.noborder{
+    padding:0 0 0 10px;
+    /*border:none;*/
+}
+ body{
+        background-image: url('./bg1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
